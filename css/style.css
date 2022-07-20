@@ -1,0 +1,217 @@
+/* Головний колір тексту  #757575 */
+/* Другорядний колір тексту #212121 */
+/* Білий #FFFFFF */
+/* Акцент #2196F3 */
+/* Другорядний колір фону #F5F4FA */
+
+:root {
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+}
+
+body {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/*-----------------                   --------------*/
+/*----------------- Logo and Site nav --------------*/
+/*-----------------                  --------------*/
+
+/* Colors for span */
+.blue-text {
+  color: #2196f3;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.black-text {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.white-text {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.site-nav .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.tel-mail .link {
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.tel-mail .link:hover,
+.tel-mail .link:focus {
+  color: var(--accent-color);
+}
+
+address .tel-mail .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+/*-----------------                   --------------*/
+/*-----------------      HERO        --------------*/
+/*-----------------                 --------------*/
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .hero-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/*-----------------                   --------------*/
+/*-----------------   SECTIONS       --------------*/
+/*-----------------                  --------------*/
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.title-person {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.title-project {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.description-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.qualification {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.variable-section {
+  background-color: var(--secondary-bg-color);
+}
+
+/*-----------------                   --------------*/
+/*-----------------       Footer     --------------*/
+/*-----------------                  --------------*/
+.footer {
+  background-color: #2f303a;
+}
+
+.address-view {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/*                      */
+/* Second page of Site */
+/*                    */
+.list .btn-item {
+  background-color: var(--secondary-bg-color);
+  color: var(--secondary-text-color);
+}
+
+.list .btn-item:hover,
+.list .btn-item:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfolio .btn-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.sort-project {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
