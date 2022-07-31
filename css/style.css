@@ -43,6 +43,7 @@ p {
 
 .header-page {
   border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .link.logo {
@@ -200,13 +201,25 @@ address .tel-mail .link {
 /*-----------------   SECTIONS       --------------*/
 /*-----------------                  --------------*/
 
+.section.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list.features {
   display: flex;
-  padding: 94px 0;
+}
+
+.features-item {
+  width: 270px;
 }
 
 .features-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.section-work {
+  padding-bottom: 94px;
 }
 
 .section-title {
@@ -218,12 +231,15 @@ address .tel-mail .link {
 }
 
 .section-title.work {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .work.list {
   display: flex;
-  padding-bottom: 94px;
+}
+
+.work-photo {
+  display: block;
 }
 
 .work-item {
@@ -245,14 +261,12 @@ address .tel-mail .link {
 }
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-roster {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 
 .team-item {
@@ -301,6 +315,8 @@ address .tel-mail .link {
 
 .variable-section {
   background-color: var(--secondary-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /*-----------------                   --------------*/
@@ -308,9 +324,13 @@ address .tel-mail .link {
 /*-----------------                  --------------*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address-view {
+  margin-top: 20px;
+
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
@@ -318,32 +338,25 @@ address .tel-mail .link {
   line-height: 1.7;
 }
 
-.footer-box {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.bottom-logo {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-
-.mail {
+.tel-mail.list {
   margin-top: 10px;
 }
 
-.tel {
+.contacts {
   margin-top: 10px;
 }
 
 /*                      */
 /* Second page of Site */
 /*                    */
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .development.list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
 }
 
 .development-item {
@@ -354,7 +367,6 @@ address .tel-mail .link {
   margin-right: 30px;
   margin-bottom: 30px; */
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 
 .development-item:nth-child(3n) {
@@ -366,8 +378,6 @@ address .tel-mail .link {
 }
 
 .title-project {
-  margin-top: 20px;
-
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -378,6 +388,7 @@ address .tel-mail .link {
 .sort-project {
   margin-top: 4px;
 
+  color: var(--main-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -389,11 +400,13 @@ address .tel-mail .link {
 
 .development-about {
   padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .but.list {
-  padding-bottom: 34px;
-  padding-top: 94px;
+  margin-bottom: 50px;
 
   display: flex;
   justify-content: center;
